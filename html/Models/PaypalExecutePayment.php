@@ -19,8 +19,8 @@ class PaypalExecutePayment extends Model{
 
 			$payer = new PayPalPayment();
 			$payer->setSandboxMode(0);
-			$payer->setClientID("AeEb79zRL1AQ-avzO0698aSueQV_ZLT9xPBPG9VwYYosX8VmI-ObKslxYOM2J_OKEnLi5Lv_v_WaBPl-");
-			$payer->setSecret("ELyJJZF6xZLAehR84op6UukRh5YBMyTe6jod2aQBiAeOuMl4yJntp1WQnBuCbZQ3aK01xp57eu59Llib");
+			$payer->setClientID("");
+			$payer->setSecret("");
 
 			/*$payer->setClientID("ASQh5-UE_ejre39S9NruvA1ofcuFwQQqrIiJ1AixzvtpEXsh44uG_aE-ydc4MC6IJi-OsP8XwlBsPE9N");
 			$payer->setSecret("EIqFRjaGKwUVRqfzIsNGsN600uGRVV-qg_u-bX4hL-jhh8ELrCowhNPeQCVcPRmBudZ2nyP-e_ED6-HR");*/
