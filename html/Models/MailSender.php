@@ -8,7 +8,7 @@ class MailSender extends Model {
 
 
 	public function mail($email, $username, $topic, $content){
-		$apiKey = "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";
+		$apiKey = "";
 
 		$mailer = new \SendGrid\Mail\Mail(); 
 		$mailer->setFrom("contact@minebump.com", "MineBump");
